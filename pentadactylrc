@@ -1,2 +1,8 @@
 set guioptions+=mT
+
 com ip open instapaper
+
+" Useful Google Stuff
+com docs open https://docs.google.com/
+com contacts open https://www.google.com/contacts
+com mail open https://www.gmail.com

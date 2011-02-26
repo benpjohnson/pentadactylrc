@@ -1,8 +1,13 @@
-set guioptions+=mT
+set mapleader=","
+
+" Copy the current URL to the clipboard with M-w
+noremap <A-w> y
+
+" Edit rc file
+cmap <Leader>rc :!gvim $HOME/.pentadactylrc
 
 com ip open instapaper
-
 " Useful Google Stuff
 com docs open https://docs.google.com/
 com contacts open https://www.google.com/contacts
-com mail open https://www.gmail.com
+com m open https://www.gmail.com

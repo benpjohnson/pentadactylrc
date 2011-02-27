@@ -1,7 +1,5 @@
 set mapleader=","
 
-" Copy the current URL to the clipboard with M-w
-noremap <A-w> y
 
 " Edit rc file
 cmap <Leader>rc :!gvim $HOME/.pentadactylrc

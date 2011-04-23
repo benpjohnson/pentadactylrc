@@ -1,10 +1,11 @@
 set mapleader=","
 
-
 " Edit rc file
 cmap <Leader>rc :!gvim $HOME/.pentadactylrc
 
 com ip open instapaper
+com ipt open instapaper_text
+
 " Useful Google Stuff
 com docs open https://docs.google.com/
 com contacts open https://www.google.com/contacts
